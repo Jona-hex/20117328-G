@@ -1,0 +1,93 @@
+body
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Loading */
+.loading img
+{
+
+    animation-name: rotate-in-center;
+    animation-duration: 6.2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    height: 100px;
+}
+.loading h5
+{   
+    font-weight: bolder;
+    letter-spacing: .3rem;
+}
+@keyframes rotate-in-center
+{
+    0%{
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+    100%
+    {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+.banner{
+    position: relative;
+}
+
+.banner-image
+{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/27/14/02/friends-3042751_960_720.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+.banner .overlay
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background-color: #000000;
+    opacity: .3;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+.banner:hover .overlay
+{
+    bottom: 0;
+    height: 100%;
+}
+.banner .overlay .text
+{
+    white-space: nowrap;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    position: absolute;
+    overflow: hidden;
+    top: 40%;
+    left: 40%;
+    translate: translate(60%, 60%);
+    -ms-transform: translate(60%, 60%);
+}
+
+.index-page .suggestions
+{
+    min-height: 400px;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.index-page .dog-card image
+{
+    max-height: 200px;
+}
