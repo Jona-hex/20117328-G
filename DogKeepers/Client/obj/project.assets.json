@@ -366,7 +366,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Radzen.Blazor/2.18.10": {
+      "Radzen.Blazor/3.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.1.0",
@@ -1608,10 +1608,10 @@
         "runtime.json"
       ]
     },
-    "Radzen.Blazor/2.18.10": {
-      "sha512": "r9jvgIGQvNF6Qse021wOQDpKjTv3GDc8KFyKOMpXOjShXfOoL82TlKm1P0oQmH5wqc+6NZKdYQuaMoN/NP1BJA==",
+    "Radzen.Blazor/3.0.1": {
+      "sha512": "3+2iaMIzxrzoCwiUq3skX06ss0DZ/DyZOb3FH9fVztniN+TsxPD7/I1IXXx9D8qhuFe5VeaqpOdbsKq5F0v33A==",
       "type": "package",
-      "path": "radzen.blazor/2.18.10",
+      "path": "radzen.blazor/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1623,7 +1623,7 @@
         "icon.png",
         "lib/net5.0/Radzen.Blazor.dll",
         "lib/netstandard2.1/Radzen.Blazor.dll",
-        "radzen.blazor.2.18.10.nupkg.sha512",
+        "radzen.blazor.3.0.1.nupkg.sha512",
         "radzen.blazor.nuspec",
         "staticwebassets/Radzen.Blazor.js",
         "staticwebassets/css/dark-base.css",
@@ -2610,43 +2610,36 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
-      "Radzen.Blazor >= 2.18.10",
+      "Radzen.Blazor >= 3.0.1",
       "System.Net.Http.Json >= 3.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonathan\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Jonathan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\client\\DogKeepers.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Client\\DogKeepers.Client.csproj",
       "projectName": "DogKeepers.Client",
-      "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\client\\DogKeepers.Client.csproj",
+      "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Client\\DogKeepers.Client.csproj",
       "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\client\\obj\\",
+      "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Client\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
-              "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
+            "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Shared\\DogKeepers.Shared.csproj": {
+              "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Shared\\DogKeepers.Shared.csproj"
             }
           }
         }
@@ -2680,7 +2673,7 @@
           },
           "Radzen.Blazor": {
             "target": "Package",
-            "version": "[2.18.10, )"
+            "version": "[3.0.1, )"
           },
           "System.Net.Http.Json": {
             "target": "Package",

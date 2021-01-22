@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+xZAz0otf1PfJjfAUIL48SUK07e5cYtXm/VitmH4P8ibbtPxGr/y0zRKdANpOL2uYUZc2Wbfs9J4b89g/+f3aQ==",
+  "dgSpecHash": "8cxFpm6YKdLMTs9k6ac2q9bxZxskATXMP0WC8am9J5vXiPGaqdeq8z2M4wzfe6vsm8uhgeMyjKiTLM0J7TR1Fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
+  "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Client\\DogKeepers.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonathan\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
@@ -36,7 +36,7 @@
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Jonathan\\.nuget\\packages\\radzen.blazor\\2.18.10\\radzen.blazor.2.18.10.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\radzen.blazor\\3.0.1\\radzen.blazor.3.0.1.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",

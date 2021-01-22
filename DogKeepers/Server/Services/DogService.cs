@@ -30,7 +30,7 @@ namespace DogKeepers.Server.Interfaces.Services
 
         public async Task<PagedList<Dog>> GetList(DogsQueryFilter model)
         {
-            model.PageNumber = paginationOption.DefaultPageNumber;
+            model.PageNumber = paginationOption.DefaultPageNumber;;
             model.PageSize = paginationOption.DefaultPageSize;
 
             var dogs = await dogRepository.GetList(model);

@@ -806,7 +806,7 @@
           "System.Xml.XDocument": "4.0.11"
         }
       },
-      "Radzen.Blazor/2.18.10": {
+      "Radzen.Blazor/3.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.1.6",
           "Microsoft.AspNetCore.Components.Web": "3.1.6",
@@ -815,8 +815,8 @@
         },
         "runtime": {
           "lib/netstandard2.1/Radzen.Blazor.dll": {
-            "assemblyVersion": "2.18.10.0",
-            "fileVersion": "2.18.10.0"
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
           }
         },
         "compile": {
@@ -1639,7 +1639,7 @@
           "Dapper": "2.0.35",
           "DogKeepers.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.1",
-          "Radzen.Blazor": "2.18.10",
+          "Radzen.Blazor": "3.0.1",
           "System.Net.Http.Json": "3.2.0"
         },
         "runtime": {
@@ -3497,12 +3497,12 @@
       "path": "netstandard.library/1.6.0",
       "hashPath": "netstandard.library.1.6.0.nupkg.sha512"
     },
-    "Radzen.Blazor/2.18.10": {
+    "Radzen.Blazor/3.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-r9jvgIGQvNF6Qse021wOQDpKjTv3GDc8KFyKOMpXOjShXfOoL82TlKm1P0oQmH5wqc+6NZKdYQuaMoN/NP1BJA==",
-      "path": "radzen.blazor/2.18.10",
-      "hashPath": "radzen.blazor.2.18.10.nupkg.sha512"
+      "sha512": "sha512-3+2iaMIzxrzoCwiUq3skX06ss0DZ/DyZOb3FH9fVztniN+TsxPD7/I1IXXx9D8qhuFe5VeaqpOdbsKq5F0v33A==",
+      "path": "radzen.blazor/3.0.1",
+      "hashPath": "radzen.blazor.3.0.1.nupkg.sha512"
     },
     "runtime.native.System/4.0.0": {
       "type": "package",

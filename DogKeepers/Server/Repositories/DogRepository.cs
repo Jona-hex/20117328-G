@@ -80,7 +80,7 @@ namespace DogKeepers.Server.Repositories
 
             var count = await baseRepository.Count(sqlCountCommand);
             if(count > 0)
-           using(var connection = new MySqlConnection("connectionString"))
+           using(var connection = new MySqlConnection("Server=localhost;Database=DogKeepers;User Id=root"))
            {
                var sqlResponse = await connection.QueryAsync<Dog, Race, Size, Dog>(
                    sqlCommand,
