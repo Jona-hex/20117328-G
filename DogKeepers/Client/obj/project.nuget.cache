@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+xZAz0otf1PfJjfAUIL48SUK07e5cYtXm/VitmH4P8ibbtPxGr/y0zRKdANpOL2uYUZc2Wbfs9J4b89g/+f3aQ==",
+  "dgSpecHash": "rrrNLIlLTt/GeIllBcNxIYmKgz2zYD5+MJri1hSDB7kv97psBsiPk4GnlKEMaRQARGYK5/FN4IgPjwPnU6X2NA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
+  "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\Client\\DogKeepers.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonathan\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
