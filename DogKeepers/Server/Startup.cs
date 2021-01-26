@@ -1,3 +1,4 @@
+using System.Net;
 using System.Reflection;
 using System.Net.Security;
 using System.Runtime.Serialization;
@@ -46,6 +47,8 @@ namespace DogKeepers.Server
             services.AddSingleton<IBaseRepository, BaseRepository>();
             services.AddScoped<IRaceService, RaceService>();
             services.AddScoped<IRaceRepository, RaceRepository>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddSingleton<IFileUtil, FileUtil>();
 
             services.Configure<ConnectionStringsOptions>(

@@ -1,8 +1,11 @@
+using System.Reflection.Emit;
+using System.Transactions;
 using System;
 using System.Net.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Text;
+using Radzen;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,8 +21,14 @@ namespace DogKeepers.Client
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
+            ConfigureServices(builder.Services, builder.Configuration);
             await builder.Build().RunAsync();
         }
+
+        public static void ConfigureServices(IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddScoped<DialogService>();
+        }    
+
     }
 }

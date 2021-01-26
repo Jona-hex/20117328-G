@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EmaljGkgnNZLr4BvnqWvBYOi8b71BFZUbklcneiVYGkdb4WpOjdE80DpgLv1FBk30y+txYv1ucBRCf28aaM/nQ==",
+  "dgSpecHash": "e/tLPLsEjRxVR6YTtw2kwNUUuq3tVXGe22e4pb3wzS5W8dLN7JR3ohhO+8l+5B+07oTCCMSNd5eYYm76bnz/PQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\dogkeepers\\server\\DogKeepers.Server.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.console\\4.0.0\\system.console.4.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
