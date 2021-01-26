@@ -105,6 +105,13 @@ using DogKeepers.Client.Layouts;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.SectionPage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\Pages\Index\Index.razor"
 using DogKeepers.Client.Components.DogCard;
 

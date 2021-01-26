@@ -1,3 +1,6 @@
+using Microsoft.VisualBasic.CompilerServices;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data;
 using System.Diagnostics;
 using System.Reflection.Emit;
 using System.Reflection;
@@ -13,6 +16,7 @@ using MySql.Data.MySqlClient;
 using Dapper;
 using Microsoft.Extensions.Options;
 using DogKeepers.Server.Options;
+using System.Linq;
 using System;
 using DogKeepers.Client.Shared.QueryFilters;
 
@@ -80,7 +84,7 @@ namespace DogKeepers.Server.Repositories
 
             var count = await baseRepository.Count(sqlCountCommand);
             if(count > 0)
-           using(var connection = new MySqlConnection("Server=localhost;Database=DogKeepers;User Id=root"))
+           using(var connection = new MySqlConnection(connectionString))
            {
                var sqlResponse = await connection.QueryAsync<Dog, Race, Size, Dog>(
                    sqlCommand,
@@ -99,6 +103,38 @@ namespace DogKeepers.Server.Repositories
            }
            return new Tuple<int, List<Dog>>(count, dogs);
         }
+        public async Task<Dog> GetById(int id){
+            Dog dog = null;
+            var sqlCommand = $@"
+            select 
+            *
+            from 
+                    dogs 
+                    join races
+                        on races.Id = raceId
+                    join sizes
+                        on sizes.Id = sizeId
+                where 
+                    dogs.id = {id}
+            ";
 
+            using(var connection = new MySqlConnection(connectionString))
+            {
+                var sqlResponse =
+                    await connection.QueryAsync<Dog, Race, Size, Dog>(
+                        sqlCommand,
+                        (dg, ra, si) => {
+                            dg.Race = ra;
+                            dg.Size = si;
+                            
+                            return dg;
+                        },
+                        splitOn: "id, id"
+                    );
+
+                    dog = sqlResponse.FirstOrDefault();
+            }
+            return dog;
+        }
     }
 }

@@ -104,6 +104,13 @@ using DogKeepers.Client.Layouts;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.SectionPage;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

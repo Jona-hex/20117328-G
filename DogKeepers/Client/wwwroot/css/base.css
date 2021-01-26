@@ -91,3 +91,14 @@ body
 {
     max-height: 200px;
 }
+
+#dog-page .banner
+{
+    position: relative;
+}
+#dog-page .banner .banner-image{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position-y: center;
+}

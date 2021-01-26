@@ -8,9 +8,11 @@ namespace DogKeepers.Server.Entities
         public string Conditions { get; set; }
         public string Description { get; set; }
         public string Picture { get; set; }
+        public byte[] PictureFile {get; set;}
         public int RaceId { get; set; }
         public int SizeId { get; set; }
         public Race Race { get; set; }
         public Size Size { get; set; }
+        
     }
 }

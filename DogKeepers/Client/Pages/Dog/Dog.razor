@@ -1,0 +1,57 @@
+@page "/Dog/{DogId:int}"
+
+<SectionPage
+     PageName="dog-page"
+     Title= "@($"Conoce a {DogInformation.Name}")"
+     Hint="@($"No dejes pasar la oportunidad de hacer feliz a {DogInformation.Name}")">
+   <div class="row banner">
+       <div class="banner-image" style="background-image: url('data:image/@DogPictureType;base64,@DogPicture'); background-color: #eaeaea">
+
+       </div>
+   </div>
+   <div class="row mt-3">
+       <section class="col-12 col-md-8 order-2 order-md-1">
+           <div class="row">
+               <ul class="col-12 list-group list-group-horizontal text-center">
+                   <li class="list-group-item col">
+                       <small>Edad</small>
+                       <span>@DogInformation.Age</span>
+                   </li>
+                   <li class="list-group-item col">
+                       <small>Raza</small>
+                       <span>@DogInformation.Race?.Name</span>
+                   </li>
+                   <li class="list-group-item col">
+                       <small>Talla</small>
+                       <span>@DogInformation.Size?.Name</span>
+                   </li>
+               </ul>
+           </div>
+           <div class="row p-3">
+               <h5 class="col-12">
+                   Descripción
+               </h5>
+               <p class="text-justify col-12">
+                   @DogInformation.Description
+                 </p>
+           </div>
+           <div class="row p-3">
+               <h5 class="col-12">
+                   Condiciones
+               </h5>
+               <p class="text-justify col-12">
+                @DogInformation.Conditions
+                  </p>
+           </div>
+       </section>
+        <section class="col-12 col-md-4 order-1 order-md-2">
+            <div class="card shadow mb-5">
+                <div class="card-body p-3 text-center">
+                    <button class="btn btn-info btn-lg">
+                        Adoptar
+                    </button>
+                </div>
+            </div>
+        </section>
+   </div>
+</SectionPage>

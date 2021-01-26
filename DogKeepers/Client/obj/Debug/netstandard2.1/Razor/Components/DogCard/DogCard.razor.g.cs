@@ -101,6 +101,13 @@ using DogKeepers.Client.Layouts;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.SectionPage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\Components\DogCard\DogCard.razor"
 using DogKeepers.Shared.DTOs;
 

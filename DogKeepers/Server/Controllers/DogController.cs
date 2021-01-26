@@ -1,3 +1,4 @@
+using System.ComponentModel.Design;
 using System.Net;
 using System.ComponentModel;
 using Microsoft.AspNetCore.Mvc;
@@ -41,6 +42,15 @@ namespace DogKeepers.Server.Controllers
             );
 
             return Ok(apiResponse);
+        }
+        
+        [HttpGet("GetById")]
+
+        public async Task<IActionResult> GetById(int id){
+
+            var response = await dogService.GetById(id);
+
+            return Ok(response);
         }
 
     }

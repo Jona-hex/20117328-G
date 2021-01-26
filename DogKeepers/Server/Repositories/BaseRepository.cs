@@ -7,11 +7,13 @@
 
 namespace DogKeepers.Server.Repositories
 {
+    
     public class BaseRepository : IBaseRepository
-    {
-
+    {   
+    
         public async Task<int> Count(string command)
         {
+           
            var count = 0;
 
            using(var connection = new MySqlConnection("Server=localhost;Database=DogKeepers;User Id=root"))
