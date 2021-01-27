@@ -6,6 +6,6 @@ namespace DogKeepers.Server.Interfaces.Services
 {
     public interface IAuthService
     {
-        Task<User> Authenticate(SignInQueryFilter user);
+        Task<Jwt> Authenticate(SignInQueryFilter user);
     }
 }

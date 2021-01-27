@@ -1,19 +1,8 @@
-using System.Net;
-using System.Reflection;
-using System.Net.Security;
-using System.Runtime.Serialization;
-using System.Runtime.InteropServices;
-using System.Security.Authentication.ExtendedProtection;
-using System.Transactions;
-using System.ComponentModel.Design;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Linq;
 using DogKeepers.Server.Utils;
 using DogKeepers.Server.Services;
 using DogKeepers.Server.Interfaces.Services;
@@ -21,6 +10,7 @@ using DogKeepers.Server.Interfaces.Repositories;
 using DogKeepers.Server.Interfaces.Utils;
 using DogKeepers.Server.Repositories;
 using DogKeepers.Server.Options;
+using DogKeepers.Server.Filters;
 
 namespace DogKeepers.Server
 {
@@ -37,7 +27,11 @@ namespace DogKeepers.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(
+                options => {
+                    options.Filters.Add<GlobalExceptionFilter>();
+                }
+            );
             services.AddRazorPages();
 
             services.AddScoped<IDogService, DogService>();
@@ -45,6 +39,7 @@ namespace DogKeepers.Server
             services.AddScoped<ISizeService, SizeService>();
             services.AddScoped<ISizeRepository, SizeRepository>();
             services.AddSingleton<IBaseRepository, BaseRepository>();
+            services.AddScoped<IJwtUtil, JwtUtil>();
             services.AddScoped<IRaceService, RaceService>();
             services.AddScoped<IRaceRepository, RaceRepository>();
             services.AddScoped<IAuthService, AuthService>();

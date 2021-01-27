@@ -20,6 +20,11 @@
         OnValidSubmit = "SignIn"
     >
     <DataAnnotationsValidator />
+    <div class="row">
+        <div class="col alert alert-danger @((String.IsNullOrEmpty(errorMessage)) ? "d-none" : "")">
+            @errorMessage
+        </div>
+    </div>
     <div class="col-12 col-md-8 offset-md-2">
         <div class="form-group row">
             <label for = "email" class="col-12">

@@ -14,12 +14,12 @@
           "lib/netstandard2.0/Dapper.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authorization/3.1.6": {
+      "Microsoft.AspNetCore.Authorization/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "3.1.6",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
-          "Microsoft.Extensions.Options": "3.1.6"
+          "Microsoft.AspNetCore.Metadata": "3.1.10",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Options": "3.1.10"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
@@ -28,12 +28,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components/3.1.6": {
+      "Microsoft.AspNetCore.Components/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "3.1.6",
-          "Microsoft.AspNetCore.Components.Analyzers": "3.1.6",
-          "Microsoft.JSInterop": "3.1.6",
+          "Microsoft.AspNetCore.Authorization": "3.1.10",
+          "Microsoft.AspNetCore.Components.Analyzers": "3.1.10",
+          "Microsoft.JSInterop": "3.1.10",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -43,10 +43,23 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/3.1.6": {
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.10": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Authorization/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "3.1.10",
+          "Microsoft.AspNetCore.Components": "3.1.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
         }
       },
       "Microsoft.AspNetCore.Components.Forms/3.1.6": {
@@ -103,12 +116,6 @@
           "build/netstandard1.0/Microsoft.AspNetCore.Components.WebAssembly.Build.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/3.2.1": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
-        }
-      },
       "Microsoft.AspNetCore.Components.WebAssembly.HttpHandler/3.2.0": {
         "type": "package",
         "compile": {
@@ -124,7 +131,7 @@
           "build/netstandard1.0/Microsoft.AspNetCore.Components.WebAssembly.Runtime.props": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/3.1.6": {
+      "Microsoft.AspNetCore.Metadata/3.1.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
@@ -230,7 +237,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -288,7 +295,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -297,11 +304,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/3.1.6": {
+      "Microsoft.Extensions.Options/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
-          "Microsoft.Extensions.Primitives": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Primitives": "3.1.10",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -311,7 +318,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.6": {
+      "Microsoft.Extensions.Primitives/3.1.10": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
@@ -324,7 +331,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.JSInterop/3.1.6": {
+      "Microsoft.JSInterop/3.1.10": {
         "type": "package",
         "dependencies": {
           "System.Text.Json": "4.7.2"
@@ -642,10 +649,10 @@
         "lib/netstandard2.0/Dapper.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/3.1.6": {
-      "sha512": "n0EC0W8jRpM2o1sKKYQpFuvE1sgW7juyEbhVZPcHy9VnHyZYvcIBHVJ6aPCtwqf/16KyqIB1XDVjPnPgyui47Q==",
+    "Microsoft.AspNetCore.Authorization/3.1.10": {
+      "sha512": "hhPUTfYTFtyT9+TI0vmmz+QeR4BjPkLeuqgBAJIN02y77cawo60RU3v/x/8Tj4bBgIzSeBfyarwJk+o9Bj0hqQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/3.1.6",
+      "path": "microsoft.aspnetcore.authorization/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -655,14 +662,14 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/3.1.6": {
-      "sha512": "mNBFDx5rbm5IHpMymGuDo9iGf9L4JWwE0Ho4wXQOdJRKhk7DhuebbIgWFcshsEmDqZPuaX1B4PkifJNDq/3KCw==",
+    "Microsoft.AspNetCore.Components/3.1.10": {
+      "sha512": "WCMq6vG5wFY+41wfaCd/54yvVPfcb5lHuqGDaBCDkx6DduKYSDq/qj6CreDzaT+QpibQlC2MsOUfJHZyvwOeJQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/3.1.6",
+      "path": "microsoft.aspnetcore.components/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -672,14 +679,14 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.components.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/3.1.6": {
-      "sha512": "uX+Dl3uPqlGmKBmQRn9QKfx0cgXXyfr9JF8aaBKgi+mexwyGEYFTMXleb9AHK9aofwwMivwfUHi/OmxgcB4YYw==",
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.10": {
+      "sha512": "E3AcukEtbV5VZk/dkjs6PINyVWsct3G+sK+jhhMgSXB6xuqt8X6wwAwrLYJ1BKAtXgtNJdBYciQAl0VOAdpJrw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/3.1.6",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -688,8 +695,25 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/3.1.10": {
+      "sha512": "RlELlco1AcnSJ6JaUPTaiizaRjJWdz5z62RfrwfRI718s9njIZZgY0/1pWSCH8tneLEeLbLZb5fo8k1l/hMEYA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Components.Forms/3.1.6": {
@@ -781,239 +805,6 @@
         "tools/netfx/System.Memory.dll",
         "tools/netfx/System.Reflection.Metadata.dll",
         "tools/netfx/System.Runtime.CompilerServices.Unsafe.dll"
-      ]
-    },
-    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/3.2.1": {
-      "sha512": "5chtIRcUNELh/kPe6guhz1uopyt+200ELFGrJefGRP6JCYirvERau8vMFfWe8b1cU5qd8VafqA5gNWmkDsN7Ig==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.devserver/3.2.1",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
-        "microsoft.aspnetcore.components.webassembly.devserver.3.2.1.nupkg.sha512",
-        "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Authentication.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Authentication.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Authentication.Core.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Authentication.Core.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Authorization.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Authorization.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.deps.json",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.exe",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.runtimeconfig.dev.json",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.runtimeconfig.json",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Diagnostics.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Diagnostics.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Diagnostics.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.HostFiltering.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.HostFiltering.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Hosting.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Hosting.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Hosting.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Hosting.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.Extensions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.Extensions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.Features.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.Features.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Http.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.HttpOverrides.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.HttpOverrides.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Metadata.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Metadata.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Routing.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Routing.Abstractions.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Routing.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Routing.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.IIS.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.IIS.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.IISIntegration.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.IISIntegration.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.Kestrel.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.Server.Kestrel.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.WebSockets.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.WebSockets.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.WebUtilities.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.WebUtilities.xml",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.dll",
-        "tools/BlazorDebugProxy/Microsoft.AspNetCore.xml",
-        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll",
-        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.UserSecrets.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Configuration.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.DependencyInjection.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.FileProviders.Composite.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.FileProviders.Physical.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Hosting.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.Abstractions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.Configuration.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.Console.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.Debug.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.EventLog.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.EventSource.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Logging.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.ObjectPool.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Options.dll",
-        "tools/BlazorDebugProxy/Microsoft.Extensions.Primitives.dll",
-        "tools/BlazorDebugProxy/Microsoft.Net.Http.Headers.dll",
-        "tools/BlazorDebugProxy/Microsoft.Net.Http.Headers.xml",
-        "tools/BlazorDebugProxy/Mono.Cecil.Mdb.dll",
-        "tools/BlazorDebugProxy/Mono.Cecil.Pdb.dll",
-        "tools/BlazorDebugProxy/Mono.Cecil.Rocks.dll",
-        "tools/BlazorDebugProxy/Mono.Cecil.dll",
-        "tools/BlazorDebugProxy/Newtonsoft.Json.dll",
-        "tools/BlazorDebugProxy/System.Diagnostics.EventLog.dll",
-        "tools/BlazorDebugProxy/System.IO.Pipelines.dll",
-        "tools/BlazorDebugProxy/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/cs/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/de/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/es/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/fr/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/it/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/ja/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/ko/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/pl/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/pt-BR/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/ru/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll",
-        "tools/BlazorDebugProxy/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/tr/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/x64/aspnetcorev2_inprocess.dll",
-        "tools/BlazorDebugProxy/x86/aspnetcorev2_inprocess.dll",
-        "tools/BlazorDebugProxy/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
-        "tools/BlazorDebugProxy/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/BlazorDebugProxy/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "tools/Microsoft.AspNetCore.Authentication.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Authentication.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Authentication.Core.dll",
-        "tools/Microsoft.AspNetCore.Authentication.Core.xml",
-        "tools/Microsoft.AspNetCore.Authorization.dll",
-        "tools/Microsoft.AspNetCore.Authorization.xml",
-        "tools/Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.exe",
-        "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
-        "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
-        "tools/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Diagnostics.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Diagnostics.dll",
-        "tools/Microsoft.AspNetCore.Diagnostics.xml",
-        "tools/Microsoft.AspNetCore.HostFiltering.dll",
-        "tools/Microsoft.AspNetCore.HostFiltering.xml",
-        "tools/Microsoft.AspNetCore.Hosting.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Hosting.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Hosting.dll",
-        "tools/Microsoft.AspNetCore.Hosting.xml",
-        "tools/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Http.Extensions.dll",
-        "tools/Microsoft.AspNetCore.Http.Extensions.xml",
-        "tools/Microsoft.AspNetCore.Http.Features.dll",
-        "tools/Microsoft.AspNetCore.Http.Features.xml",
-        "tools/Microsoft.AspNetCore.Http.dll",
-        "tools/Microsoft.AspNetCore.Http.xml",
-        "tools/Microsoft.AspNetCore.HttpOverrides.dll",
-        "tools/Microsoft.AspNetCore.HttpOverrides.xml",
-        "tools/Microsoft.AspNetCore.Metadata.dll",
-        "tools/Microsoft.AspNetCore.Metadata.xml",
-        "tools/Microsoft.AspNetCore.Routing.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Routing.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Routing.dll",
-        "tools/Microsoft.AspNetCore.Routing.xml",
-        "tools/Microsoft.AspNetCore.Server.IIS.dll",
-        "tools/Microsoft.AspNetCore.Server.IIS.xml",
-        "tools/Microsoft.AspNetCore.Server.IISIntegration.dll",
-        "tools/Microsoft.AspNetCore.Server.IISIntegration.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.xml",
-        "tools/Microsoft.AspNetCore.StaticFiles.dll",
-        "tools/Microsoft.AspNetCore.StaticFiles.xml",
-        "tools/Microsoft.AspNetCore.WebUtilities.dll",
-        "tools/Microsoft.AspNetCore.WebUtilities.xml",
-        "tools/Microsoft.AspNetCore.dll",
-        "tools/Microsoft.AspNetCore.xml",
-        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "tools/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/Microsoft.Extensions.Configuration.UserSecrets.dll",
-        "tools/Microsoft.Extensions.Configuration.dll",
-        "tools/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "tools/Microsoft.Extensions.DependencyInjection.dll",
-        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/Microsoft.Extensions.FileProviders.Composite.dll",
-        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
-        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "tools/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "tools/Microsoft.Extensions.Hosting.dll",
-        "tools/Microsoft.Extensions.Logging.Abstractions.dll",
-        "tools/Microsoft.Extensions.Logging.Configuration.dll",
-        "tools/Microsoft.Extensions.Logging.Console.dll",
-        "tools/Microsoft.Extensions.Logging.Debug.dll",
-        "tools/Microsoft.Extensions.Logging.EventLog.dll",
-        "tools/Microsoft.Extensions.Logging.EventSource.dll",
-        "tools/Microsoft.Extensions.Logging.dll",
-        "tools/Microsoft.Extensions.ObjectPool.dll",
-        "tools/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "tools/Microsoft.Extensions.Options.dll",
-        "tools/Microsoft.Extensions.Primitives.dll",
-        "tools/Microsoft.Extensions.WebEncoders.dll",
-        "tools/Microsoft.Net.Http.Headers.dll",
-        "tools/Microsoft.Net.Http.Headers.xml",
-        "tools/System.Diagnostics.EventLog.dll",
-        "tools/System.IO.Pipelines.dll",
-        "tools/blazor-devserver.deps.json",
-        "tools/blazor-devserver.dll",
-        "tools/blazor-devserver.exe",
-        "tools/blazor-devserver.runtimeconfig.json",
-        "tools/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll",
-        "tools/x64/aspnetcorev2_inprocess.dll",
-        "tools/x86/aspnetcorev2_inprocess.dll"
       ]
     },
     "Microsoft.AspNetCore.Components.WebAssembly.HttpHandler/3.2.0": {
@@ -1218,10 +1009,10 @@
         "tools/monolinker/monolinker.runtimeconfig.json"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/3.1.6": {
-      "sha512": "CPD6ukxTPpvtm5GfAlgRbUPF7D+eo8K7rMVgL/kLrz4aTT6gb/c0uet2ISRIO615zIS2N52ZZwLcX9hmeQhVGg==",
+    "Microsoft.AspNetCore.Metadata/3.1.10": {
+      "sha512": "lKOEoTSwMgASq1y+0OgF3ZvrQLf/3KhAocKUb3zJIf7wcSPa+CLHzVdvwcDvpnglBsIDV+Dgu+ZsKvAnEmOTxw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/3.1.6",
+      "path": "microsoft.aspnetcore.metadata/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1231,7 +1022,7 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -1428,17 +1219,17 @@
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
-      "sha512": "JVlypPjlPqOEyAhET6pA7TqrK+Ya8TrYe2vvqsp62TYKS87oNuReoS7XpDFW0rrOsQo66G1yYf3K0E+lJHFHuw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+      "sha512": "bhjtAN7Ix5WOAr47RK16Lr1l2eizSBMCYQSavkooZyf6Xdf8XWAYGWsGsPqUFOeeRxzhpRho051rXaLn5wskVw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.6",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
@@ -1504,24 +1295,24 @@
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
-      "sha512": "o2XYIjF9UugupEPvFsc9N8SjevixoRznS0V6EtjUZcGV4EjXXWKUXlKKsIWmD3i4dSiGo82aNcyqfQTsF/8h8g==",
+    "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+      "sha512": "bKHbgzbGsPZbEaExRaJqBz3WQ1GfhMttM23e1nivLJ8HbA3Ad526mW2G2K350q3Dc3HG83I5W8uSZWG4Rv4IpA==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.6",
+      "path": "microsoft.extensions.logging.abstractions/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options/3.1.6": {
-      "sha512": "6nBkdL9UxCfA8eDuFBZVYAYpJhux0a6R7y58KcYnqKEYF84X9cK1uJQ9a+VWEWGXujMa4fnCGoVdKNYhANqbZg==",
+    "Microsoft.Extensions.Options/3.1.10": {
+      "sha512": "CusdV4eIv+CGb9Fy6a+JcRqpcVJREmvFI8eHk3nQ76VLtEAIJpKQY5r5sRSs5w6NevNi2ukdnKleH0YCPudFZQ==",
       "type": "package",
-      "path": "microsoft.extensions.options/3.1.6",
+      "path": "microsoft.extensions.options/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1530,14 +1321,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.3.1.6.nupkg.sha512",
+        "microsoft.extensions.options.3.1.10.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.6": {
-      "sha512": "X+h3tO383iMbtFxYp6Al4pgBzbfQKJY8/gd4U7+sZy90XeSfnw5SwHyCiRrAePG6kee4zCGsvQHPCqaTZ876hw==",
+    "Microsoft.Extensions.Primitives/3.1.10": {
+      "sha512": "YDuQS3BeaVY6PCWUm5f6qFTYsxhwntQrcfwUzbohU/0rZBL5XI+UsD5SgggHKHX+rFY4laaT428q608Sw/mDsw==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.6",
+      "path": "microsoft.extensions.primitives/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1546,14 +1337,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+        "microsoft.extensions.primitives.3.1.10.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
-    "Microsoft.JSInterop/3.1.6": {
-      "sha512": "k/AaZDugrwLO4gkLrPkFiWIzjC0BxPGF2yds6P6PYXNG4Jw/od3UZJrVSRLakQPDsnXLMDiyg7uGWtDI17FtSQ==",
+    "Microsoft.JSInterop/3.1.10": {
+      "sha512": "mIOidfUfRJhFdXi9flTu06vFgHP07OxnGiO3OI61sOioK5oVveWJg9UKTStnTELm5Vvd495O+WlhYjZtVRsKEg==",
       "type": "package",
-      "path": "microsoft.jsinterop/3.1.6",
+      "path": "microsoft.jsinterop/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1562,7 +1353,7 @@
         "lib/netcoreapp3.1/Microsoft.JSInterop.xml",
         "lib/netstandard2.0/Microsoft.JSInterop.dll",
         "lib/netstandard2.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.3.1.6.nupkg.sha512",
+        "microsoft.jsinterop.3.1.10.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
@@ -2610,9 +2401,9 @@
     ".NETStandard,Version=v2.1": [
       "Dapper >= 2.0.35",
       "DogKeepers.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 3.1.10",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
       "Radzen.Blazor >= 3.0.1",
       "System.Net.Http.Json >= 3.2.0"
     ]
@@ -2660,16 +2451,15 @@
             "target": "Package",
             "version": "[2.0.35, )"
           },
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[3.1.10, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[3.2.1, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly.Build": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[3.2.1, )"
-          },
-          "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.2.1, )"

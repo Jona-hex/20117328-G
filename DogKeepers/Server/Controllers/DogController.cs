@@ -1,6 +1,3 @@
-using System.ComponentModel.Design;
-using System.Net;
-using System.ComponentModel;
 using Microsoft.AspNetCore.Mvc;
 using DogKeepers.Server.Interfaces.Services;
 using System.Threading.Tasks;

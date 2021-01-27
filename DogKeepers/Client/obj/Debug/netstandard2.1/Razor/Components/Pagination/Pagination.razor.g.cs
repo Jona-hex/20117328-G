@@ -107,6 +107,13 @@ using DogKeepers.Client.Components.SectionPage;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 15 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
     public partial class Pagination : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

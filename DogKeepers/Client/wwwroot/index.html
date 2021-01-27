@@ -25,6 +25,11 @@
     </div>
     <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        function setLocalStorageValue(key, value){localStorage[key]=value;}
+        function getLocalStorageValue(key){return localStorage[key];}
+        function removeLocalStorageValue(key){localStorage.removeItem(key);}
+    </script>
 </body>
 
 </html>

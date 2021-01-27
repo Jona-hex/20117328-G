@@ -108,6 +108,13 @@ using DogKeepers.Client.Components.SectionPage;
 #line hidden
 #nullable disable
 #nullable restore
+#line 15 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\Jonathan\ProgramacionWeb\programacion\dogkeepers\Client\Components\DogCard\DogCard.razor"
 using DogKeepers.Shared.DTOs;
 

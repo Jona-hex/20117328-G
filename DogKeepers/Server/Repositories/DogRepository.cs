@@ -1,13 +1,3 @@
-using Microsoft.VisualBasic.CompilerServices;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Data;
-using System.Diagnostics;
-using System.Reflection.Emit;
-using System.Reflection;
-using System.Text;
-using System.Globalization;
-using System.Runtime.CompilerServices;
-using System.Xml.Schema;
 using DogKeepers.Server.Interfaces.Repositories;
 using System.Threading.Tasks;
 using DogKeepers.Server.Entities;
@@ -86,7 +76,8 @@ namespace DogKeepers.Server.Repositories
             if(count > 0)
            using(var connection = new MySqlConnection(connectionString))
            {
-               var sqlResponse = await connection.QueryAsync<Dog, Race, Size, Dog>(
+               var sqlResponse = 
+                 await connection.QueryAsync<Dog, Race, Size, Dog>(
                    sqlCommand,
                    (dg, ra, si) => 
                    {
@@ -107,7 +98,7 @@ namespace DogKeepers.Server.Repositories
             Dog dog = null;
             var sqlCommand = $@"
             select 
-            *
+                *
             from 
                     dogs 
                     join races
