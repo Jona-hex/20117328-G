@@ -228,3 +228,5 @@ C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\server\bin\Debug\netcoreapp
 C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\server\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\server\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\server\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\server\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll

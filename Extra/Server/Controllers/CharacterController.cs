@@ -1,3 +1,4 @@
+using System.Security.AccessControl;
 using Microsoft.AspNetCore.Mvc;
 using Extra.Server.Interfaces.Services;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace Extra.Server.Controllers
     public class CharacterController : ControllerBase
     {   
         private readonly ICharacterService characterService;
-        
+
         public CharacterController(ICharacterService characterService)
         {
             this.characterService = characterService;

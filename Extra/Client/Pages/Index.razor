@@ -8,9 +8,14 @@
         <div class="banner-image"></div>
         <div class="overlay">
             <nav class="navbar navbar-light bg-light">
-                <div class="input-group input-group-lg">
-                    <input type="text" placeholder="Say My Name.." class="form-control form-control-lg">
-                    <button class="btn btn-primary btn-lg">
+                <div class="input-group input-group-lg">                   
+                    <RadzenTextBox  
+                                   placeholder="Say My Name.." 
+                                   class="form-control form-control-lg" 
+                                   @bind-value="FiltersName"
+
+                    />
+                    <button class="btn btn-primary btn-lg" @onclick="Buscar">
                         Search
                     </button>
                 </div>
@@ -27,7 +32,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="@character.Img" alt="..." width="100px" height="100px" >
+                                <img src="@character.Img" alt="..." width="200px" height="200px" >
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -50,13 +55,21 @@
                                     </li>
                                     <li>
                                         <small>Ocuppation :</small>
-                                        <span>ddddddd</span>
+                                        <span></span>
                                     </li>
                                 </div>
                             </div>
                         </div>
                     </div>
-                }       
+                }      
             }
     </div>
 </div>
+@code{
+    private string FiltersName = string.Empty;
+
+    private async Task Buscar()
+    {  
+        await LoadCharacters();
+    }
+}

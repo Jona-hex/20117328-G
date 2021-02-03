@@ -8,5 +8,6 @@ namespace Extra.Shared.DTOs
         public string Portrayed{get; set;}
         public string Status{get; set;}
         public string Img{get; set;}
+         
     }
 }
