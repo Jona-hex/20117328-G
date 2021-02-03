@@ -42835,6 +42835,77 @@
         }
       },
       {
+        "HashCode": -1261428044,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.Pagination.Pagination",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Pagination"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PaginationData",
+            "TypeName": "DogKeepers.Shared.Metadata.PaginationMetadata",
+            "Metadata": {
+              "Common.PropertyName": "PaginationData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedPage",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "SelectedPage",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.Pagination.Pagination"
+        }
+      },
+      {
+        "HashCode": 195959400,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.Pagination.Pagination",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.Pagination.Pagination"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PaginationData",
+            "TypeName": "DogKeepers.Shared.Metadata.PaginationMetadata",
+            "Metadata": {
+              "Common.PropertyName": "PaginationData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedPage",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "SelectedPage",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.Pagination.Pagination",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 706117416,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Components.Signin.SignInDialog",

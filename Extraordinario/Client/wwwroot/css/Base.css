@@ -1,0 +1,28 @@
+.banner
+{
+    position: relative;
+}
+.banner-image
+{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://blogrevoltijo.files.wordpress.com/2014/02/breaking_bad_title_sequence.jpg);
+    background-size: cover;
+    background-position-y: center;
+    opacity: 80%;
+
+}
+ .banner .overlay .navbar
+ {
+     white-space: nowrap;
+     color: white;
+     font-size: 3rem;
+     font-weight: bolder;
+     letter-spacing: .1rem;
+     position: absolute;
+     top: 40%;
+     left: 40%;
+     overflow: hidden;
+     translate: translate(60%, 60%);
+     -ms-transform: translate(60%, 60%);
+ }

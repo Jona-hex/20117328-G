@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\server\\Extraordinario.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Client\\Extraordinario.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Client\\Extraordinario.Client.csproj",
+        "projectName": "Extraordinario.Client",
+        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Client\\Extraordinario.Client.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\server\\Extraordinario.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\server\\Extraordinario.Server.csproj",
+        "projectName": "Extraordinario.Server",
+        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\server\\Extraordinario.Server.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Client\\Extraordinario.Client.csproj": {
+                "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Client\\Extraordinario.Client.csproj"
+              },
+              "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj",
+        "projectName": "Extraordinario.Shared",
+        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\Extraordinario.Shared.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extraordinario\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
