@@ -1,0 +1,9 @@
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\bin\Debug\netstandard2.1\Extra.Shared.deps.json
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\bin\Debug\netstandard2.1\Extra.Shared.dll
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\bin\Debug\netstandard2.1\Extra.Shared.pdb
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\obj\Debug\netstandard2.1\Extra.Shared.csprojAssemblyReference.cache
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\obj\Debug\netstandard2.1\Extra.Shared.AssemblyInfoInputs.cache
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\obj\Debug\netstandard2.1\Extra.Shared.AssemblyInfo.cs
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\obj\Debug\netstandard2.1\Extra.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\obj\Debug\netstandard2.1\Extra.Shared.dll
+C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Shared\obj\Debug\netstandard2.1\Extra.Shared.pdb

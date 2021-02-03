@@ -1,0 +1,62 @@
+﻿@page "/"
+@page "/ index"
+@using Extra.Shared.DTOs
+
+
+<div class="container-fluid">
+    <div class="banner row">
+        <div class="banner-image"></div>
+        <div class="overlay">
+            <nav class="navbar navbar-light bg-light">
+                <div class="input-group input-group-lg">
+                    <input type="text" placeholder="Say My Name.." class="form-control form-control-lg">
+                    <button class="btn btn-primary btn-lg">
+                        Search
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="suggestions">
+    <div class="container">
+            @if (CharacterList != null)
+            { 
+                foreach (CharacterDto character in CharacterList)
+                {
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="@character.Img" alt="..." width="100px" height="100px" >
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">@character.Name</h5>
+                                    <li>
+                                        <small>Birthday :</small>
+                                        <span>@character.Birthday</span>
+                                    </li>
+                                    <li>
+                                        <small>Nickname:</small>
+                                        <span>@character.Nickname</span>
+                                    </li>
+                                    <li>
+                                        <small>Actor/Actress :</small>
+                                        <span>@character.Portrayed</span>
+                                    </li>
+                                    <li>
+                                        <small>Status :</small>
+                                        <span>@character.Status</span>
+                                    </li>
+                                    <li>
+                                        <small>Ocuppation :</small>
+                                        <span>ddddddd</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }       
+            }
+    </div>
+</div>
