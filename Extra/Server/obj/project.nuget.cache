@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqF54ubO1Up29ReY8sAep8DFxTPNLPYIHmc5MOg6aA1H4MzJehzmS3i5tu3PL7dgoeC1/xrsKYnSIW4yi90kng==",
+  "dgSpecHash": "7V5LeAj+7etKfRC3CfOUo7rGhDSago/D7G2h+93lT8eGnkGWoKh44P6jOl5s7aUR8OyX3MOCyiQwZriUT9Wn7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\server\\Extra.Server.csproj",
+  "projectFilePath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\server\\Extra.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonathan\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",

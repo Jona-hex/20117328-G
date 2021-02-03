@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj": {}
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj": {
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj",
         "projectName": "Extra.Shared",
-        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj",
+        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj",
         "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"

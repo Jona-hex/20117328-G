@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\Extra.Client.csproj": {}
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\Extra.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\Extra.Client.csproj": {
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\Extra.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\Extra.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\Extra.Client.csproj",
         "projectName": "Extra.Client",
-        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\Extra.Client.csproj",
+        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\Extra.Client.csproj",
         "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj": {
-                "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj"
+              "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj": {
+    "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj",
         "projectName": "Extra.Shared",
-        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj",
+        "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj",
         "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"

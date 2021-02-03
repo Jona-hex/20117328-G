@@ -6597,11 +6597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\server\\Extra.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\server\\Extra.Server.csproj",
       "projectName": "Extra.Server",
-      "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\server\\Extra.Server.csproj",
+      "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\server\\Extra.Server.csproj",
       "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\server\\obj\\",
+      "outputPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6615,11 +6615,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\Extra.Client.csproj": {
-              "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Client\\Extra.Client.csproj"
+            "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\Extra.Client.csproj": {
+              "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Client\\Extra.Client.csproj"
             },
-            "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj": {
-              "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\Extra\\Shared\\Extra.Shared.csproj"
+            "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj": {
+              "projectPath": "C:\\Users\\Jonathan\\ProgramacionWeb\\programacion\\extra\\Shared\\Extra.Shared.csproj"
             }
           }
         }
