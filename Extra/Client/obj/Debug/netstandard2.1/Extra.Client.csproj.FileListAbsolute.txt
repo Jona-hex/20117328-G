@@ -395,8 +395,8 @@ C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandar
 C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Linq.Dynamic.Core.pdb.br
 C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Characters\CharacterCard.razor.g.cs
 C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\Razor\Pages\Characters\CharacterCard.razor.g.cs
-C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\integrity\cBzezfMkAp6_h2WgE8rZ_LojhN60dl81iU-FwZ6wvSo=.hash
-C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\integrity\6ux1NcHXYOi3fWF-RJnOaAT9yGA1OoHTYANqk46rJuo=.hash
-C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\integrity\mc9y2EdqAEMv7uh661LWhd0xOxDcV9a69UC-XcZtELs=.hash
-C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\integrity\QgPK4UZJZWkS2jOaafgMcu7NFKm9ba2ZGPaKYG6cfP4=.hash
-C:\Users\Jonathan\ProgramacionWeb\programacion\Extra\Client\obj\Debug\netstandard2.1\integrity\zm3Sgca8gxHZlCbh4ucuN6bXniub04zVt3W9ovTRaNs=.hash
+C:\Users\Jonathan\ProgramacionWeb\programacion\extra\Client\obj\Debug\netstandard2.1\integrity\sTzThLNJt79Tfk-Y5CUt1Caddkrex42kad7CL7OHX98=.hash
+C:\Users\Jonathan\ProgramacionWeb\programacion\extra\Client\obj\Debug\netstandard2.1\integrity\3r4sfxiDyKoRS1WKNZhftEVFapNnRogixN1Kq4yPmNw=.hash
+C:\Users\Jonathan\ProgramacionWeb\programacion\extra\Client\obj\Debug\netstandard2.1\integrity\FiHI08xARoapQAfytuARFbt3wUO4WHL9MTnmsOKnS-U=.hash
+C:\Users\Jonathan\ProgramacionWeb\programacion\extra\Client\obj\Debug\netstandard2.1\integrity\pYODZhanNz-Jm70o-BAWRdkSTJQRLVsdtmGITfy3RY8=.hash
+C:\Users\Jonathan\ProgramacionWeb\programacion\extra\Client\obj\Debug\netstandard2.1\integrity\ibByAVoSHfVlBRU3iIVfZYiqS3CMYUK9rgYRgKysoGE=.hash

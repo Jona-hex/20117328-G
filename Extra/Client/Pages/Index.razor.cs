@@ -9,15 +9,11 @@ namespace  Extra.Client.Pages
 {
     public partial class Index
     {
-        string conditions;
+        
         [Inject] private HttpClient httpClient {get; set;}
 
         private List<CharacterDto> CharacterList { get; set; } = null;
 
-        protected override async Task OnInitializedAsync()
-        {
-            await LoadCharacters();
-        }
         private async Task LoadCharacters()
         {
             CharacterList =
